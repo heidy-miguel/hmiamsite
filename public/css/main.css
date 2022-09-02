@@ -1155,11 +1155,12 @@ section {
   border: solid 2px var(--color-primary);
   width: 200px;
   height: 200px;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-top: 100px;
+  position: relative;
 }
 
-
-.chefs .chef-member .social {
+  .chefs .chef-member .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -1364,6 +1365,12 @@ section {
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
+
+.swipter-chefes {
+  width: 400px;
+  height: 600px, 
+}
+
 .gallery {
   overflow: hidden;
 }

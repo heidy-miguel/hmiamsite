@@ -161,6 +161,24 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Init swiper slider with 3 slides at once in desktop view
    */
+   new Swiper('.swipter-chefes', {
+    speed: 400,
+    loop: false,
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    centeredSlides: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+
+   });
+
+
+
+  /**
+   * Init swiper slider with 3 slides at once in desktop view
+   */
   new Swiper('.slides-3', {
     speed: 600,
     loop: true,
@@ -189,7 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
-
 
   /**
    * Gallery Slider
