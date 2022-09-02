@@ -129,10 +129,10 @@
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4>Horários</h4>
             <p>
-              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
-              Sunday: Closed
+              <strong>Banco de Urgência: </strong> - 24H/24H<br>
+              <strong>Visitas: </strong> - 16H à 17H
             </p>
           </div>
         </div>
