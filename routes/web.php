@@ -35,4 +35,12 @@ Route::prefix('servico')
 		})->name('uci-adulto');
 });
 
+Route::prefix('perfil')
+	->name('perfil.')
+	->group(function(){
+		Route::get('quem-foi-manuel-pedro-azancot-de-menezes', function(){
+			return view('azancot_perfil');
+		})->name('azancot-perfil');
+	});
+
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

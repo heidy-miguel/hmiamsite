@@ -6,10 +6,9 @@
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h1 data-aos="fade-up">Hospital Materno-Infantil<br>Dr. Pedro Manuel Azancot <br>de Menezes</h1>
-          <h4 data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem <br>
-          itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</h4>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+          <h1 data-aos="fade-up">Hospital Materno-Infantil<br>Dr. Manuel Pedro Azancot <br>de Menezes</h1>
+          <h4 data-aos="fade-up" data-aos-delay="50">"... o que quer que se faça, terá que ser bem feito, em busca da perfeição e sem abdicarmos nunca dos nossos princípios"</h4>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="100">
             <a href="#about" class="btn-book-a-table">Saber Mais</a>
           </div>
         </div>
@@ -73,13 +72,14 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
-              <h3>Why Choose Yummy?</h3>
+              <h3>Quem foi Manuel Pedro Azancot de Menezes?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                O Dr. que dá nome ao hospital, nasceu em São Tomé e Príncipe e tornou-se especialista em cirurgia-geral e ginecologia pela Universidade de Lisboa.
               </p>
+              <p>
+              Trabalhou em Angola, Cabo Verde, Portugal, São Tomé e Príncipe e Timor-Leste. Faleceu em Luanda em 1984.</p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="{{ route('perfil.azancot-perfil') }}" class="more-btn">Saber Mais <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -90,24 +90,26 @@
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-clipboard-data"></i>
-                  <h4>Corporis voluptates officia eiusmod</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Estudos </h4>
+                  <p>Começou a frequentar o ensino Primário em São Tomé e Príncipe em 1929.
+                      Iniciou o Ensino Secundário no Liceu Diogo Cão, na cidade então denominada Sá da Bandeira, na Huíla.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-gem"></i>
-                  <h4>Ullamco laboris ladore pan</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <i class="bi bi-h-square"></i>
+                  <h4>Trabalho</h4>
+                  <p>Iniciou  a carreira como Cirurgião Geral no Hospital São José em Lisboa,
+                  onde concluiu a especialidade e posteriormente a de Ginecologia - Obstretícia.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-inboxes"></i>
-                  <h4>Labore consequatur incidid dolore</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <i class="bi bi-chat-heart"></i>
+                  <h4>Dedicação</h4>
+                  <p>Durante 35 anos dedicou-se, com afinco, sabedoria, competência, simplicidade, ética e integridade a uma causa nobre, a medicina.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -134,8 +136,8 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <span data-purecounter-start="0" data-purecounter-end="220" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Camas Disponíveis</p>
             </div>
           </div><!-- End Stats Item -->
 
