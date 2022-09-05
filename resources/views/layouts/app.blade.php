@@ -8,6 +8,7 @@
   <title>@yield('page-title', 'HMIAM') | Hospital Materno Infantil Azancot de Menezes</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  @yield('meta')
 
 
   <!-- Favicons -->
@@ -47,7 +48,7 @@
           <li><a href="{{ route('home') }}#hero">Home</a></li>
           <li><a href="{{ route('home') }}#about">Sobre</a></li>
           <!-- <li><a href="{{ route('home') }}#menu">Menu</a></li> -->
-          <li><a href="{{ route('home') }}#events">Eventos</a></li>
+          <li><a href="{{ route('home') }}#events">Publicações</a></li>
           <li><a href="{{ route('home') }}#chefs">Directores</a></li>
           <li><a href="{{ route('home') }}#gallery">Galeria</a></li>
           <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -67,19 +68,26 @@
               <li><a href="#">Consultas Externas</a></li>
               <li><a href="#">Morgue</a></li>
               <li><a href="#">Endoscopia/Brancoscopia</a></li>
-
-<!--               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
           <li><a href="#contact">Contactos</a></li>
+          @guest
+          <li><a href="{{ route('login') }}">Login</a></li>
+          @endguest
+          @auth
+          <li class="dropdown"><a href="#"><span>{{ ucwords(Auth::user()->name) }}</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="{{ route('articles.create') }}">Nova Publicação</a></li>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">@csrf</form>
+              <li>
+              <a class="dropdown-item d-flex align-items-center" onclick="event.preventDefault();document.getElementById('logout-form').submit()" href="{{ route('logout') }}">
+                <span>Sign Out</span>
+                <i class="bi bi-box-arrow-right"></i>
+              </a>
+              </li>
+            </ul>
+          </li>
+          @endauth
         </ul>
       </nav><!-- .navbar -->
 
@@ -140,9 +148,9 @@
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Siga-nos</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://twitter.com/_hmiam" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://facebook.com/hmiam" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/_hmiam" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
@@ -170,7 +178,6 @@
   <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
   <script src="{{ asset('vendor/purecounter/purecounter_vanilla.js') }}"></script>
   <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
-  <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
 
   <!-- Template Main JS File -->
   <script src="{{ asset('js/main.js') }}"></script>

@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ArticleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,4 +44,25 @@ Route::prefix('perfil')
 		})->name('azancot-perfil');
 	});
 
+Route::controller(
+	ArticleController::class)
+	->prefix('articles')
+	->name('articles.')
+	->group(function(){
+		Route::get('/search', 'search')->name('search');
+		Route::get('/simple-index', 'simpleIndex')->name('simpleIndex');
+		Route::get('/', 'index')->name('index');
+		Route::post('/', 'store')->name('store'); 
+		Route::get('/create', 'create')->name('create');
+		Route::get('/{slug}', 'show')->name('show');
+		Route::get('/{slug}/edit', 'edit')->name('edit');
+		Route::put('/{slug}', 'update')->name('update');
+		Route::get('/{id}', 'destroy')->name('destroy');
+});
+
+Route::post('contact-us', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

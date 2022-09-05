@@ -977,6 +977,7 @@ section {
 .menu .tab-content .menu-item .price {
   font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
   color: var(--color-primary);
 }
 
@@ -1091,7 +1092,7 @@ section {
   inset: 0;
 }
 
-.events .event-item h3 {
+.events .event-item h3 a{
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1102,13 +1103,14 @@ section {
 .events .event-item .price {
   color: #fff;
   border-bottom: 2px solid var(--color-primary);
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 15px;
+  text-transform: uppercase;
   position: relative;
 }
 
-.events .event-item .description {
+.events .event-item p {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
