@@ -1162,7 +1162,7 @@ section {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 100px;
+  margin-top: 60px;
   position: relative;
 }
 
@@ -1210,6 +1210,7 @@ section {
   font-size: 14px;
   font-weight: 400;
   color: rgba(33, 37, 41, 0.4);
+  min-width: 400px;
 }
 
 .chefs .chef-member .member-info p {
@@ -1746,4 +1747,14 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
 }

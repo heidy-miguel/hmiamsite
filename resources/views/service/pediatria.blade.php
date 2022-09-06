@@ -10,7 +10,7 @@ Pedriatria
 			<div class="col-lg-8 entry">
 				<article class="entry entry-single">
 	              <div class="entry-image">
-	                <img src="{{ asset('img/stats-bg0.jpg') }}" alt="" class="img-fluid">
+	                <img src="{{ asset('img/estetoscopio-de-pediatria.jpg') }}" alt="" class="img-fluid">
 	              </div>
 
 	              <h2 class="entry-title">

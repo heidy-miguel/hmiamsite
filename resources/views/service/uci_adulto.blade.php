@@ -10,7 +10,7 @@ UCI Adulto
 			<div class="col-lg-8 entry">
 				<article class="entry entry-single">
 	              <div class="entry-image">
-	                <img src="{{ asset('img/uci_neonatal.jpg') }}" alt="" class="img-fluid">
+	                <img src="{{ asset('img/fotonoticia_20210429101537_420.jpg') }}" alt="" class="img-fluid">
 	              </div>
 
 	              <h2 class="entry-title">
