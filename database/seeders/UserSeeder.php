@@ -22,5 +22,24 @@ class UserSeeder extends Seeder
             'email' => 'edlasio.pereira@hmiam.gov.ao',
             'password' => Hash::make('password'),
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'engracia',
+            'email' => 'engracia.kiala@hmiam.gov.ao',
+            'password' => Hash::make('password'),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'celestino',
+            'email' => 'celestino.sisione@hmiam.gov.ao',
+            'password' => Hash::make('password'),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'antonio',
+            'email' => 'antonio.calenga@hmiam.gov.ao',
+            'password' => Hash::make('password'),
+        ]);
+
     }
 }
