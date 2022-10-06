@@ -36,24 +36,28 @@
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url('{{ asset('img/qq.jpg')}}');" data-aos="fade-up" data-aos-delay="150">
-          </div>
-          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-7 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
+              <h4 class="title">Quem Somos</h4>
               <p class="fst-italic">
                 O <b>Hospital Materno-Infantil Manuel Pedro Azancot de Menezes</b>,
                 abreviadamente designado por HMIAM, é um estabelecimento público de saúde da rede hospitalar de referência nacional, integrado no Serviço Nacional de Saúde, dotado de autonomia administrativa, financeira e patrimonial, para a prestação diferenciada, especializada e qualificada de assistência à saúde materno-infantil.
               </p>
-              <p>Constituem objectivos do HMIAM:</p>
+              <p>Constituem atribuições do HMIAM:</p>
               <ul>
-                <li><i class="bi bi-check2-all"></i> Prestar assistência médica e de enfermagem especializada de excelência, respeitando os
-                tempos de atendimento de acordo com as prioridades clínicas e padrões nacionais de tempos de espera, à mulher e ao neonato;</li>
-                <li><i class="bi bi-check2-all"></i> Formar profissionais nas várias especialidades médicas e cirúrgicas e facultar áreas de
-                estágios para licenciaturas e pós – graduação no ramo da saúde;</li>
-                <li><i class="bi bi-check2-all"></i> Servir de unidade sanitária para dar resposta aos casos da Junta Nacional de Saúde sobre reprodução medicamente assistida.</li>
+                <li><i class="bi bi-check2-all"></i> Contribuir na redução da morbimortalidade pelas doenças mais correntes nas suas áreas
+                  de jurisdição, incluindo os cuidados materno-infantil;</li>
+                <li><i class="bi bi-check2-all"></i> Prestar cuidados de saúde diferenciados na área de Pediatria, Cirurgia, Ginecologia e 
+                  Obstetrícia e Neonatologia, tantos inseridos localmente como transferidos das unidades 
+                  sanitárias periféricas, através do sistema de referência e contra-referência;
+                </li>
+                <li><i class="bi bi-check2-all"></i> Realizar procedimentos de procriação medicamente assistida;</li>
+                <li><i class="bi bi-check2-all"></i> Desenvolver estudos científicos em saúde reprodutiva e saúde infantil;</li>
+                <li><i class="bi bi-check2-all"></i> Exercer as demais atribuições estabelecidas por lei ou incumbidas pelo órgão de 
+                superintendência.</li>
               </ul>
               <p>
-                rege-se, dentre outros diplomas, pelo presente Estatuto, pela Lei de Bases do Sistema Nacional de Saúde, pelo Regime Jurídico de Gestão Hospitalar, pelo Regime Jurídico aplicável aos Hospitais Públicos.
+                Rege-se, dentre outros diplomas, pelo presente Estatuto, pela Lei de Bases do Sistema Nacional de Saúde, pelo Regime Jurídico de Gestão Hospitalar, pelo Regime Jurídico aplicável aos Hospitais Públicos.
               </p>
               <p>O HMIAM funciona sob a superintendência administrativa e metodológica do Ministro da Saúde,exercida nos termos da lei.</p>
 
@@ -61,6 +65,32 @@
                 <a href="#" class="more-btn">Saber Mais <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
+          </div>
+          <div class="col-lg-5 content position-relative about-img" data-aos="fade-up" data-aos-delay="150">
+            <h4>Missão</h4>
+            <ul>
+                <li><i class="bi bi-check2-all"></i> Prestar assistência médica e de enfermagem especializada de excelência, respeitando os
+                tempos de atendimento de acordo com as prioridades clínicas e padrões nacionais de tempos de espera, à mulher e ao neonato;</li>
+                <li><i class="bi bi-check2-all"></i> Formar profissionais nas várias especialidades médicas e cirúrgicas e facultar áreas de
+                estágios para licenciaturas e pós – graduação no ramo da saúde;</li>
+                <li><i class="bi bi-check2-all"></i> Servir de unidade sanitária para dar resposta aos casos da Junta Nacional de Saúde sobre reprodução medicamente assistida.</li>
+              </ul>
+            <h4>Visão</h4>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> Desenvolver estudos científicos em saúde reprodutiva e saúde infantil;</li>
+              <li><i class="bi bi-check2-all"></i> Realizar procedimentos de procriação medicamente assistida;</li>
+              <li><i class="bi bi-check2-all"></i> Contribuir na redução da morbimortalidade pelas doenças mais correntes nas suas áreas
+              de jurisdição, incluindo os cuidados materno-infantil;</li>
+              <li><i class="bi bi-check2-all"></i> Exercer as demais atribuições estabelecidas por lei ou incumbidas pelo órgão de
+              superintendência</li>
+            </ul>
+            <h4>Valores</h4>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> Qualidade, segurança e humanização no atendimento;</li>
+              <li><i class="bi bi-check2-all"></i> Ética e deontologia profissionais;</li>
+              <li><i class="bi bi-check2-all"></i> Trabalho em equipa multidisciplinar e multiprofissional;</li>
+              <li><i class="bi bi-check2-all"></i> Disciplina laboral e responsabilidade individual</li>
+            </ul>
           </div>
         </div>
 
