@@ -35,9 +35,9 @@
           <p>Saiba Mais <span>Sobre Nós</span></p>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4 content">
           <div class="col-lg-7 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
-            <div class="content ps-0 ps-lg-5">
+            <div class="ps-0 ps-lg-5">
               <h4 class="title">Quem Somos</h4>
               <p class="fst-italic">
                 O <b>Hospital Materno-Infantil Manuel Pedro Azancot de Menezes</b>,
@@ -66,7 +66,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5 content position-relative about-img" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-5 position-relative about-img" data-aos="fade-up" data-aos-delay="150">
             <h4>Missão</h4>
             <ul>
                 <li><i class="bi bi-check2-all"></i> Prestar assistência médica e de enfermagem especializada de excelência, respeitando os
@@ -93,7 +93,6 @@
             </ul>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -113,7 +112,7 @@
               <p>
               Trabalhou em Angola, Cabo Verde, Portugal, São Tomé e Príncipe e Timor-Leste. Faleceu em Luanda em 1984.</p>
               <div class="text-center">
-                <a href="{{ route('perfil.azancot-perfil') }}" class="more-btn">Saber Mais <i class="bx bx-chevron-right"></i></a>
+                <a href="{{ route('perfil.azancot-perfil') }}" class="more-btn mt-5">Saber Mais <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -209,10 +208,9 @@
           <div class="swiper-wrapper">
 
             @foreach($articles as $article)
-              <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url('{{ Storage::url($article->image) }}')">
+              <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url('{{ Storage::url($article->picture) }}')">
                 <h3><a href="{{ route('articles.show', [$article->slug]) }}">{{ $article->title }}</a></h3>
                 <div class="price align-self-start">{{ date('d - M - Y', strtotime($article->created_at)) }}</div>
-                {!! Str::limit($article->body, 250, '...') !!}
               </div> 
             @endforeach
 

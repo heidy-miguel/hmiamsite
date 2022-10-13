@@ -11,7 +11,7 @@ Publicações
 				@foreach($articles as $article)
 				<article class="entry">
 <!-- 	              <div class="entry-image">
-	                <img src="{{ Storage::url($article->image) }}" alt="{{ $article->title }}" class="img-fluid">
+	                <img src="{{ Storage::url($article->picture) }}" alt="{{ $article->title }}" class="img-fluid">
 	              </div> -->
 
 	              <h2 class="entry-title">

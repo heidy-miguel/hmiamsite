@@ -71,7 +71,7 @@ class ArticleController extends Controller
         $article->body = $validated['body'];
         $article->user_id = Auth::id();
                 
-        $article->image = $request->file('image')->store('public/article-images');
+        $article->picture = $request->file('picture')->store('public/article-images');
         $article->save();
         $request->session()->flash('message', 'Criado com sucesso!');
         return redirect()->route('articles.index');
@@ -132,9 +132,9 @@ class ArticleController extends Controller
             $article->active = 0;
         }
 
-        if($request->hasFile('image')){
-            Storage::delete($article->image);
-            $article->image = $request->file('image')->store('public/article-images');
+        if($request->hasFile('picture')){
+            Storage::delete($article->picture);
+            $article->picture = $request->file('picture')->store('public/article-images');
         }
 
 

@@ -29,12 +29,21 @@ extra-uterina
  Hospital Américo Boavida), até 1975, e de 1975 a 1983 (data da sua morte), na Maternidade de Luanda (agora Maternidade Lucrécia Paím
 ), ao longo da sua carreira, não descurou da necessidade de ter uma formação contínua, estagiando periodicamente em centros hospitalares mais diferenciados e de referência e acompanhando sempre a literatura científica existente. </p>
 					<p>A leitura era uma paixão, assim como a música ocidental clássica. Viajou sempre acompanhado dos livros, alguns herdados do seu pai, Dr Ayres de Menezes. Eram bens que primeiro embalava, e os que primeiro desembalava no destino.</p>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
+					<p>Na maternidade de Luanda, como ginecologista e obstetra, foi director clinico e do ente responsável de Ginecologia e Obstetricia
+						da faculdade de Medicina de Luanda
+					</p>
+					<p>E, como responsável pelo Internato de Ginecologia e Obstetricia, orientou e formou os primeiros especialistas nessa área, em Angola já independente.
+					</p>
+					<p>No plano da saúde pública e através da Televisão Popular de Angola, muito colaborou efectuando com regularidade palestras sobre saúde materna e planeamento familiar.</p>
+					<p>Nos últimos anos começou a dedicar-se ao "parto sem dor", trabalho que não pode concluir</p>
+					<p>O reconhecimento teve-o:</p>
+					<ul>
+						<li>Louvores em Diário da República nas ex-províncias ultramarina</li>
+						<li>Muitas pessoas do Moxico que lhe chamavam o "Santo Preto"</li>
+						<li>Inúmeros doentes, e até filhos e netos daqueles, que ainda o recordam e referem, no quotidiano, nas redes sociais e afim.</li>
+						<li>Os que foram seus alunos e internos o citam e têm como referência.</li>
+					</ul>
+					<p>Faleceu em sua casa, Vila Alice, Luanda, aos 60 anos de idade, no dia 14 de Dezembro de de 1983, vitima de um enfarte do miocárdio. Seu corpo jaz sepultado no Cemitério de Sta Ana, em Luanda.</p>
 	              </div>
 				</article>
 			</div>

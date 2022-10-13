@@ -19,7 +19,7 @@
 			<div class="col-lg-8 entry">
 				<article class="entry entry-single">
 	              <div class="entry-image">
-	                <img src="{{ Storage::url($article->image) }}" alt="{{ $article->title }}" class="img-fluid">
+	                <img src="{{ Storage::url($article->picture) }}" alt="{{ $article->title }}" class="img-fluid">
 	              </div>
 
 	              <h2 class="entry-title">

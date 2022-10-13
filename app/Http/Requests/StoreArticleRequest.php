@@ -26,7 +26,7 @@ class StoreArticleRequest extends FormRequest
         return [
             //
             'title' => 'required|max:255|unique:articles',
-            'image' => 'required|file|mimes:jpg,jpeg,png|max:2048',
+            'picture' => 'required|file|mimes:jpg,jpeg,png|max:3072',
             'body' => 'required',
         ];
     }
@@ -35,12 +35,11 @@ class StoreArticleRequest extends FormRequest
     {
         return [
             'title.required' => 'preenchimento obrigatório',
-            'title.max' => 'máximo: 255 caracteres',
+            'title.max' => 'tamanho máximo: 255 caracteres',
             'title.unique' => 'este título já existe',
-            'image.required' => 'preenchimento obrigatório',
-            'image.mimes' => 'formatos validos: jpeg, jpg, png',
-            'image.max' => 'tamaho máximo permitido: 2MB',
-            'image.max' => 'máximo: 3000mx',
+            'picture.required' => 'preenchimento obrigatório',
+            'picture.mimes' => 'formatos validos: jpeg, jpg, png',
+            'picture.max' => 'tamanho máximo permitido: 3MB',
             'body.required' => 'preenchimento obrigatório',
         ];
     }

@@ -19,7 +19,7 @@ class UpdateArticleRequest extends FormRequest
         return [
             //
             'title' => 'required|max:255',
-            'image' => 'nullable|file|mimes:jpg,jpeg,png|max:2048',
+            'picture' => 'nullable|file|mimes:jpg,jpeg,png|max:3072',
             'body' => 'required',
             'active' => 'nullable',
         ];
@@ -31,9 +31,9 @@ class UpdateArticleRequest extends FormRequest
             'title.required' => 'preenchimento obrigatório',
             'title.max' => 'máximo: 255 caracteres',
             //'title.unique' => 'este título já existe',
-            'image.required' => 'preenchimento obrigatório',
-            'image.mimes' => 'formatos validos: jpeg, jpg, png',
-            'image.max' => 'tamanho máximo permitido: 2MB',
+            'picture.required' => 'preenchimento obrigatório',
+            'picture.mimes' => 'formatos validos: jpeg, jpg, png',
+            'picture.max' => 'tamanho máximo permitido: 2MB',
             'body.required' => 'preenchimento obrigatório',
             //'active.required' => 'preenchimento obrigatório',
         ];

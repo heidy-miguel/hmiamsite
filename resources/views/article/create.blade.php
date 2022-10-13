@@ -30,11 +30,11 @@ Novo Artigo
                 </div>
 
                 <div class="col-12">
-                  <label for="image" class="form-label">Imagem</label>
-                  <input type="file" name="image" value="{{ old('image') }}" class="form-control" required="required">
-                  @if($errors->has('image'))
+                  <label for="picturee" class="form-label">Imagem</label>
+                  <input type="file" name="picture" value="{{ old('picture') }}" class="form-control" required="required">
+                  @if($errors->has('picture'))
                     <span class="error">
-                      {{ $errors->first('image') }}
+                      {{ $errors->first('picture') }}
                     </span>
                   @endif
                 </div>
