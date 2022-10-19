@@ -1,0 +1,76 @@
+@extends('layouts.app')
+
+@push('css')
+@endpush
+
+@section('page-title')
+{{ $article->title }}
+@endsection
+
+@section('main')
+<div class="container">
+	<div class="row justify-content-md-center">
+		<div class="col-md-8 pt-5">
+          <div class="card  mt-5">
+            <div class="card-body">
+             <div class="section-title">
+                <h1>Editar Publicação</h1>
+              </div> 
+              <form class="row g-3" method="post" action="{{ route('articles.update', [$article->slug]) }}" enctype="multipart/form-data">
+                @csrf
+                @method('put')
+
+                <div class="col-12">
+                  <label for="title" class="form-label">Título</label>
+                  <input type="text" name="title" value="{{ $article->title }}" class="form-control">
+                  @if($errors->has('title'))
+                    <span class="error">
+                      {{ $errors->first('title') }}
+                    </span>
+                  @endif
+                </div>
+
+                <div class="col-12">
+                  <label for="picturee" class="form-label">Imagem</label>
+                  <input type="file" name="picture" value="" class="form-control">
+                  @if($errors->has('picture'))
+                    <span class="error">
+                      {{ $errors->first('picture') }}
+                    </span>
+                  @endif
+                </div>
+
+                <div class="col-12">
+                  <label for="picturee" class="form-label">Imagem</label>
+                  @if($article->active == 1)
+                  <input class="form-check-input" type="checkbox" name="active" checked>
+                  @else
+                  <input class="form-check-input" type="checkbox" name="active">
+                  @endif
+                </div>
+
+                <div class="col-12">
+                  <label for="body" class="form-label">Texto</label>
+                  <textarea class="tinymce-editor" name="body">{{ $article->body }}</textarea>
+                  @if($errors->has('body'))
+                    <span class="error">
+                      {{ $errors->first('body') }}
+                    </span>
+                  @endif
+                </div>
+
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+		</div>
+	</div>
+</div>
+@endsection
+@push('js')
+<script src="{{ asset('vendor/jquery/jquery.min.3.6.js') }}"></script>
+<script src="{{ asset('vendor/tinymce/tinymce.min.js') }}"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
+@endpush

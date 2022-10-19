@@ -22,9 +22,19 @@
 	                <img src="{{ Storage::url($article->picture) }}" alt="{{ $article->title }}" class="img-fluid">
 	              </div>
 
-	              <h2 class="entry-title">
+				  <h2 class="entry-title">
 	                <a href="#">{{ ucfirst(mb_strtolower($article->title)) }}</a>
 	              </h2>
+				  
+				  <div class="entry-meta">
+					<ul class="detail">
+						<li> <i class="bi bi-clock"></i> {{ date('d.m\.Y', strtotime($article->created_at)) }}</li>
+						@auth
+							<li> <a href="{{ route('articles.edit', [$article->slug]) }}"><i class="bi bi-pencil-square"></i></a></li>
+						@endauth
+						<li> <i class="bi bi-clock"></i></li>
+					</ul>
+				  </div>
 
 	              <div class="entry-content">
 					{!! $article->body !!}

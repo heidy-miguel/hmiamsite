@@ -152,8 +152,10 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+    <!-- End Why Us Section -->
 
+    
     <!-- ======= Stats Counter Section ======= -->
     <section id="stats-counter" class="stats-counter">
       <div class="container" data-aos="zoom-out">
@@ -163,7 +165,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <p>Pacientes</p>
             </div>
           </div>
 
@@ -194,13 +196,103 @@
     </section>
     <!-- End Stats Counter Section -->
 
+    <section id="services" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
 
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+        <div class="row gy-4">
+
+
+          <div class="col-lg-12 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-card-image"></i>
+                  <h4>Imagiologia </h4>
+                  <p>Começou a frequentar o ensino Primário em São Tomé e Príncipe em 1929.
+                      Iniciou o Ensino Secundário no Liceu Diogo Cão, na cidade então denominada Sá da Bandeira, na Huíla.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-bandaid"></i>
+                  <h4>Pediatria</h4>
+                  <p>Prevenção, avaliação de riscos, diagnóstico e tratamento de doenças dirigido a crianças e adolescentes</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-hospital"></i>
+                  <h4>Urgências</h4>
+                  <p>Visa a prevenir e a tratar doenças benignas e malignas do sistema reprodutor feminino (útero, ovários, vagina e vulva) e das mamas</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-balloon-heart"></i>
+                  <h4>Consultas Pré-natal</h4>
+                  <p>O pré-natal é o acompanhamento médico da mulher durante a gravidez que é oferecido também pelo Hospital e tem como objectivo avaliar a saúde da mulher e do bebê durante a gravidez</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-gender-female"></i>
+                  <h4>Ginecologia e Obstetrícia</h4>
+                  <p>Visa a prevenir e a tratar doenças benignas e malignas do sistema reprodutor feminino (útero, ovários, vagina e vulva) e das mamas</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-chat-heart"></i>
+                  <h4>Psicologia</h4>
+                  <p>Atendimento psicológico aos pacientes e seus familiares em todos os ambientes do Hospital e por meio da participação em diversos projetos sociais</p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-lungs"></i>
+                  <h4>Terapia Respiratória</h4>
+                  <p>Tem como objetivo desobstruir as vias respiratórias e optimizar o transporte de oxigênio, prevenindo e reduzindo os efeitos de disfunções respiratórias que podem ter graves consequências</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-house-heart"></i>
+                  <h4>UCI Neonatal</h4>
+                  <p>envolve cuidados especiais aos recém-nascidos saudáveis e, principalmente, aos prematuros ou doentes, sendo sua principal meta a redução da mortalidade e morbilidade perinatais e a procura da sobrevivência do recém-nascido nas melhores condições funcionais possíveis</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-eyedropper"></i>
+                  <h4>Laboratório</h4>
+                  <p>Realizar diversos exames específicos de acordo com solicitação médica. Preparar a amostra do material colhido. Orientar o paciente a respeito do tipo de exame e da coleta do material.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= news Section ======= -->
+    <section id="news" class="news">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Events / Notícias</h2>
+          <h2>news / Notícias</h2>
           <p>Esteja <span>a par dos Últimos</span> Acontecimentos</p>
         </div>
 
@@ -220,7 +312,7 @@
 
       </div>
     </section>
-    <!-- End Events Section -->
+    <!-- End news Section -->
 
     <!-- ======= Chefs Section ======= -->
     <section id="chefs" class="chefs section-bg">

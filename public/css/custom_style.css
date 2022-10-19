@@ -1,0 +1,9 @@
+
+.entry-meta .detail {
+    padding-left: 0px;
+}
+.entry-meta .detail li {
+    list-style: none;
+    display: inline;
+    margin-right: 4px;;
+}

@@ -29,6 +29,7 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/custom_style.css') }}" rel="stylesheet">
   @stack('css')
 </head>
 
@@ -48,7 +49,7 @@
           <li><a href="{{ route('home') }}#hero">Home</a></li>
           <li><a href="{{ route('home') }}#about">Sobre</a></li>
           <!-- <li><a href="{{ route('home') }}#menu">Menu</a></li> -->
-          <li><a href="{{ route('home') }}#events">Publicações</a></li>
+          <li><a href="{{ route('home') }}#news">Publicações</a></li>
           <li><a href="{{ route('home') }}#chefs">Directores</a></li>
           <li><a href="{{ route('home') }}#gallery">Galeria</a></li>
           <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
