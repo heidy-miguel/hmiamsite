@@ -49,10 +49,11 @@
           <li><a href="{{ route('home') }}#hero">Home</a></li>
           <li><a href="{{ route('home') }}#about">Sobre</a></li>
           <!-- <li><a href="{{ route('home') }}#menu">Menu</a></li> -->
+          <li><a href="{{ route('home') }}#services">Serviços</a></li>
           <li><a href="{{ route('home') }}#news">Publicações</a></li>
           <li><a href="{{ route('home') }}#chefs">Directores</a></li>
           <li><a href="{{ route('home') }}#gallery">Galeria</a></li>
-          <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+<!--           <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="{{ route('servico.imagiologia') }}">Imagiologia</a></li>
               <li><a href="{{ route('servico.pediatria') }}">Pediatria</a></li>
@@ -70,7 +71,7 @@
               <li><a href="#">Morgue</a></li>
               <li><a href="#">Endoscopia/Brancoscopia</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contactos</a></li>
           @guest
           <li><a href="{{ route('login') }}">Login</a></li>
